@@ -5,7 +5,7 @@ self.context = {
     "development": false,
     "production": true,
     "mode": "ssg",
-    "key": "4e4e025368d7e796f3a5870eef5035d2be9c20cc",
+    "key": "91fc161b7c0498f71b29ea12ecc723ea16d68ecf",
     "name": ""
   },
   "project": {
@@ -42,7 +42,7 @@ self.context = {
     "cacheFirst": [],
     "headers": {},
     "api": "",
-    "cdn": "",
+    "cdn": "/nullstack-linktree",
     "protocol": "https",
     "queues": {}
   }
