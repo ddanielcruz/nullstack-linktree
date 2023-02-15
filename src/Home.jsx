@@ -57,7 +57,11 @@ export default class Home extends Nullstack {
 
         <div class="flex flex-col gap-4 w-full max-w-2xl mt-8 px-4">
           {DATA.links.map(link => (
-            <a href={link.url} class="flex items-center bg-white shadow-sm p-1" target="_blank">
+            <a
+              href={link.url}
+              class="flex items-center bg-white shadow-sm p-1 hover:shadow-md duration-300 rounded-sm"
+              target="_blank"
+            >
               <div class="h-12 w-12">{link.image && <img src={link.image} alt={link.title} class="rounded-sm" />}</div>
               <h2 class="w-full text-center -ml-12 font-medium text-gray-900 text-sm">{link.title}</h2>
             </a>
@@ -67,7 +71,7 @@ export default class Home extends Nullstack {
         <div class="flex mt-8 gap-4">
           {DATA.socials.map(social => (
             <a href={social.url} target="_blank">
-              <img src={`/icons/${social.id}.svg`} alt={social.id} class="h-10 w-10" />
+              <img src={`icons/${social.id}.svg`} alt={social.id} class="h-10 w-10" />
             </a>
           ))}
         </div>
