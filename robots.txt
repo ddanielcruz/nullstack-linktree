@@ -1,3 +1,3 @@
 User-Agent: *
 Allow: /
-Sitemap: https://https://ddanielcruz.github.io/nullstack-linktree/sitemap.xml
+Sitemap: https://ddanielcruz.github.io/nullstack-linktree/sitemap.xml

@@ -5,11 +5,11 @@ self.context = {
     "development": false,
     "production": true,
     "mode": "ssg",
-    "key": "bc5fb7dce50d1de44158664fc03c85db5e8b3ddd",
+    "key": "be643cf374bc76cac5eb256c1ae4c7d5b802193f",
     "name": ""
   },
   "project": {
-    "domain": "https://ddanielcruz.github.io/nullstack-linktree",
+    "domain": "ddanielcruz.github.io/nullstack-linktree",
     "name": "[dev] Nullstack Hot Reload",
     "color": "#D22365",
     "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
