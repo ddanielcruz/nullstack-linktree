@@ -1,0 +1,21 @@
+{
+  "extends": "plugin:nullstack/recommended",
+  "rules": {
+    "nullstack/prettier": [
+      "warn",
+      {
+        "trailingComma": "none",
+        "tabWidth": 2,
+        "semi": false,
+        "singleQuote": true,
+        "printWidth": 120,
+        "arrowParens": "avoid"
+      },
+      {
+        "usePrettierrc": false
+      }
+    ],
+    "padded-blocks": "off",
+    "no-shadow": "off"
+  }
+}
